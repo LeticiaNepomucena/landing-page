@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(47,7,67,1) 0%, rgba(65,41,90,1) 100%);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    height: 35px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: bisque;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo-principal-botão {
+    background-color: #E100FF;
+    width: 120px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.linha-tempo {
+    height: 430px;
+}
+
+.conteudo-secundário {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-secundário-titulo {
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: none;
+    margin-bottom: none;
+}
+
+.conteudo-secundário-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: bisque;
+    display: flex;
+    padding-left: 120px;
+    padding-top: none;
+    margin-top: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.container > div{
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.git-hub {
+    background-color: #42275a;
+    padding: auto;
+    border-radius: 2%;
+    
+}
+
+.git-hub-img {
+    display: flex;
+    align-self: flex-start;
+}
+
+.conteudo-secundário-paragrafo-principal {
+    display: flex;
+    align-self: flex-start;
+}
+
+.web-development{
+    background-color: #42275a;
+    padding: auto;
+    border-radius: 2%;
+}
+
+.software-engineer {
+    background-color: #42275a;
+    padding: auto;
+    border-radius: 2%;
+}
+
+.economist {
+    background-color: #42275a;
+    padding: auto;
+    border-radius: 2%;
+}
+
+.content-creator{
+    background-color: #42275a;
+    padding: auto;
+    border-radius: 2%;
+}
